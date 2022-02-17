@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wordle</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="title">WORDLE</div>
+            <div class="las la-sun la-2x darkModeBtn"></div>
+        </header>
+        <div class="alert-container">
+        </div>
+    </div>
+
+            <div class="flex0">
+                <span class = "zero boxes0" id="box0-0">
+                    <p class="letter" id="flex0-0"></p>
+                </span>
+                <span class = "one boxes0" id="box0-1">
+                    <p class="letter" id="flex0-1"></p>
+                </span>
+                <span class = "two boxes0" id="box0-2">
+                    <p class="letter" id="flex0-2"></p>
+                </span>
+                <span class = "three boxes0" id="box0-3">
+                    <p class="letter" id="flex0-3"></p>
+                </span>
+                <span class = "four boxes0" id="box0-4">
+                    <p class="letter" id="flex0-4"></p>
+                </span>
+            </div>
+
+            <div class="flex1">
+                <span class = "zero boxes1" id="box1-0">
+                    <p class="letter"id="flex1-0"></p>
+                </span>
+                <span class = "one boxes1" id="box1-1">
+                    <p class="letter" id="flex1-1"></p>
+                </span>
+                <span class = "two boxes1" id="box1-2">
+                    <p class="letter" id="flex1-2"></p>
+                </span>
+                <span class = "three boxes1" id="box1-3">
+                    <p class="letter" id="flex1-3"></p>
+                </span>
+                <span class = "four boxes1" id="box1-4">
+                    <p class="letter" id="flex1-4"></p>
+                </span>
+            </div>
+
+            <div class="flex2">
+                <span class = "zero boxes2" id="box2-0">
+                    <p class="letter" id="flex2-0"></p>
+                </span>
+                <span class = "one boxes2" id="box2-1">
+                    <p class="letter" id="flex2-1"></p>
+                </span>
+                <span class = "two boxes2" id="box2-2">
+                    <p class="letter" id="flex2-2"></p>
+                </span>
+                <span class = "three boxes2" id="box2-3">
+                    <p class="letter" id="flex2-3"></p>
+                </span>
+                <span class = "four boxes2" id="box2-4">
+                    <p class="letter" id="flex2-4"></p>
+                </span>
+            </div>
+
+            <div class="flex3">
+                <span class = "zero boxes3" id="box3-0">
+                    <p class="letter" id="flex3-0"></p>
+                </span>
+                <span class = "one boxes3" id="box3-1">
+                    <p class="letter" id="flex3-1"></p>
+                </span>
+                <span class = "two boxes3" id="box3-2">
+                    <p class="letter" id="flex3-2"></p>
+                </span>
+                <span class = "three boxes3" id="box3-3">
+                    <p class="letter" id="flex3-3"></p>
+                </span>
+                <span class = "four boxes3" id="box3-4">
+                    <p class="letter" id="flex3-4"></p>
+                </span>
+            </div>
+
+            <div class="flex4">
+                <span class = "zero boxes4" id="box4-0">
+                    <p class="letter" id="flex4-0"></p>
+                </span>
+                <span class = "one boxes4" id="box4-1">
+                    <p class="letter" id="flex4-1"></p>
+                </span>
+                <span class = "two boxes4" id="box4-2">
+                    <p class="letter" id="flex4-2"></p>
+                </span>
+                <span class = "three boxes4" id="box4-3">
+                    <p class="letter" id="flex4-3"></p>
+                </span>
+                <span class = "four boxes4" id="box4-4">
+                    <p class="letter" id="flex4-4"></p>
+                </span>
+            </div>
+
+            <div class="flex5">
+                <span class = "zero boxes5" id="box5-0">
+                    <p class="letter" id="flex5-0"></p>
+                </span>
+                <span class = "one boxes5" id="box5-1">
+                    <p class="letter" id="flex5-1"></p>
+                </span>
+                <span class = "two boxes5" id="box5-2">
+                    <p class="letter" id="flex5-2"></p>
+                </span>
+                <span class = "three boxes5" id="box5-3">
+                    <p class="letter" id="flex5-3"></p>
+                </span>
+                <span class = "four boxes5" id="box5-4">
+                    <p class="letter" id="flex5-4"></p>
+                </span>
+            </div>
+
+        <div class = "keyboard">
+
+          <div class="topRow">
+            <button class="q key">Q</button>
+            <button class="w key">W</button>
+            <button class="e key">E</button>
+            <button class="r key">R</button>
+            <button class="t key">T</button>
+            <button class="y key">Y</button>
+            <button class="u key">U</button>
+            <button class="i key">I</button>
+            <button class="o key">O</button>
+            <button class="p key">P</button>
+          </div>
+          <div class="midRow">
+            <button class="a key">A</button>
+            <button class="s key">S</button>
+            <button class="d key">D</button>
+            <button class="f key">F</button>
+            <button class="g key">G</button>
+            <button class="h key">H</button>
+            <button class="j key">J</button>
+            <button class="k key">K</button>
+            <button class="l key">L</button>
+          </div>
+          <div class="bottomRow">
+            <button class="enter key">ENTER</button>
+            <button class="z key">Z</button>
+            <button class="x key">X</button>
+            <button class="c key">C</button>
+            <button class="v key">V</button>
+            <button class="b key">B</button>
+            <button class="n key">N</button>
+            <button class="m key">M</button>
+            <button class="backspace key">
+                <i class="las la-backspace la-2x"></i>
+            </button>
+          </div>
+        </div>      
+    </body>
+    <script src = "app.js"></script>
+</html>
