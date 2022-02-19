@@ -13356,6 +13356,8 @@ body_ele.addEventListener("keydown", e => {
     }
 })
 
+
+if(winCon === false) {
 q_class.addEventListener("click", e => {
     placer("q");
 })
@@ -13440,3 +13442,4 @@ enter_class.addEventListener("click", e => {
 backspace_class.addEventListener("click", e => {
     deleter();
 })
+}
