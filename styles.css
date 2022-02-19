@@ -46,10 +46,6 @@ body {
     cursor:pointer;
 }
 
-.keys:hover {
-    cursor: pointer;
-}
-
 .darkModeLetter {
     color:#1A1A1B !important;
 }
@@ -215,6 +211,11 @@ header {
     transition: ease-in 0.15s;
     touch-action: manipulation;
 }
+
+.key:hover {
+    cursor:pointer;
+}
+
 
 .enter {
     width:60px;
