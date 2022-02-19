@@ -42,11 +42,6 @@ body {
     transition: ease-in 0.15s !important;
 }
 
-.darkModeKeys:hover {
-    border-color: transparent !important;
-    background-color: #bcbec0 !important;
-}
-
 .darkModeLetter {
     color:#1A1A1B !important;
 }
@@ -211,12 +206,6 @@ header {
     border-radius: 8%;
     transition: ease-in 0.15s;
     touch-action: manipulation;
-}
-
-.key:hover{
-    cursor:pointer;
-    background-color: #818384c5;
-    border-color: transparent;
 }
 
 .enter {
