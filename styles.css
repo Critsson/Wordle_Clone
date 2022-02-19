@@ -42,6 +42,14 @@ body {
     transition: ease-in 0.15s !important;
 }
 
+.darkModeKeys:hover {
+    cursor:pointer;
+}
+
+.keys {
+    cursor: pointer;
+}
+
 .darkModeLetter {
     color:#1A1A1B !important;
 }
