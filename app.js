@@ -13357,89 +13357,144 @@ body_ele.addEventListener("keydown", e => {
 })
 
 
-if(winCon === false) {
 q_class.addEventListener("click", e => {
+    if(winCon === false) {
     placer("q");
+    }
 })
 w_class.addEventListener("click", e => {
-    placer("w");
+    if(winCon === false) {
+        placer("w");
+        }
 })
 e_class.addEventListener("click", e => {
-    placer("e");
+    if(winCon === false) {
+        placer("e");
+        }
 })
 r_class.addEventListener("click", e => {
-    placer("r");
+    if(winCon === false) {
+        placer("r");
+        }
 })
 t_class.addEventListener("click", e => {
-    placer("t");
+    if(winCon === false) {
+        placer("t");
+        }
 })
 y_class.addEventListener("click", e => {
-    placer("y");
+    if(winCon === false) {
+        placer("y");
+        }
 })
 u_class.addEventListener("click", e => {
-    placer("u");
+    if(winCon === false) {
+        placer("u");
+        }
 })
 i_class.addEventListener("click", e => {
-    placer("i");
+    if(winCon === false) {
+        placer("i");
+        }
 })
 o_class.addEventListener("click", e => {
-    placer("o");
+    if(winCon === false) {
+        placer("o");
+        }
 })
 p_class.addEventListener("click", e => {
-    placer("p");
+    if(winCon === false) {
+        placer("p");
+        }
 })
 a_class.addEventListener("click", e => {
-    placer("a");
+    if(winCon === false) {
+        placer("a");
+        }
 })
 s_class.addEventListener("click", e => {
-    placer("s");
+    if(winCon === false) {
+        placer("s");
+        }
 })
 d_class.addEventListener("click", e => {
-    placer("d");
+    if(winCon === false) {
+        placer("d");
+        }
 })
 f_class.addEventListener("click", e => {
-    placer("f");
+    if(winCon === false) {
+        placer("f");
+        }
 })
 g_class.addEventListener("click", e => {
-    placer("g");
+    if(winCon === false) {
+        placer("g");
+        }
 })
 h_class.addEventListener("click", e => {
-    placer("h");
+    if(winCon === false) {
+        placer("h");
+        }
 })
 j_class.addEventListener("click", e => {
-    placer("j");
+    if(winCon === false) {
+        placer("j");
+        }
 })
 k_class.addEventListener("click", e => {
-    placer("k");
+    if(winCon === false) {
+        placer("k");
+        }
 })
 l_class.addEventListener("click", e => {
-    placer("l");
+    if(winCon === false) {
+        placer("l");
+        }
 })
 z_class.addEventListener("click", e => {
-    placer("z");
+    if(winCon === false) {
+        placer("z");
+        }
 })
 x_class.addEventListener("click", e => {
-    placer("x");
+    if(winCon === false) {
+        placer("x");
+        }
 })
 c_class.addEventListener("click", e => {
-    placer("c");
+    if(winCon === false) {
+        placer("c");
+        }
 })
 v_class.addEventListener("click", e => {
-    placer("v");
+    if(winCon === false) {
+        placer("v");
+        }
 })
 b_class.addEventListener("click", e => {
-    placer("b");
+    if(winCon === false) {
+        placer("b");
+        }
 })
 n_class.addEventListener("click", e => {
-    placer("n");
+    if(winCon === false) {
+        placer("n");
+        }
 })
 m_class.addEventListener("click", e => {
-    placer("m");
+    if(winCon === false) {
+        placer("m");
+        }
 })
 enter_class.addEventListener("click", e => {
-    checker();
+    if(winCon === false) {
+        checker();
+        }
 })
 backspace_class.addEventListener("click", e => {
-    deleter();
+    if(winCon === false) {
+        deleter();
+        }
 })
-}
+
