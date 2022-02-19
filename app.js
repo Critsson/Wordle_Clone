@@ -13020,8 +13020,8 @@ const dictionary = [
     "shave"
 ]
 const regex = new RegExp("Key", "i");
-const answer = "FORCE";
-let answerArr = ["F", "O", "R", "C", "E"];
+const answer = "STEAL";
+let answerArr = ["S", "T", "E", "A", "L"];
 let input = [];
 let greenCounter = 0;
 let horizontalPointer = 0;
@@ -13190,48 +13190,86 @@ function checker() {
         }
     }
 
+   
+
+    if (greenCounter === 5) {
+        setTimeout(() => {
+        createAlert("You guessed the word!");
+        }, 1900);
+        winCon = true;
+    }
+
     switch (verticalPointer) {
         case 0:
             boxes0_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
         case 1:
             boxes1_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
         case 2:
             boxes2_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
         case 3:
             boxes3_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
         case 4:
             boxes4_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
         case 5:
             boxes5_class.forEach(e => {
                 e.classList.add("rotate");
+                if(greenCounter === 5) {
+                    setTimeout(() => {
+                        e.classList.add("jump");
+                    }, 1900)
+                }
             })
             break;
     }
 
-    if (greenCounter === 5) {
+    if(verticalPointer === 5) {
         setTimeout(() => {
-        createAlert("You guessed the word!");
-        }, 1850);
-        winCon = true;
+        createAlert("You lost!");
+        }, 1900);
     }
 
     greenCounter = 0;
-    answerArr = ["F", "O", "R", "C", "E"];
+    answerArr = ["S", "T", "E", "A", "L"];
     input = [];
     horizontalPointer = 0;
     if (verticalPointer < 6) {

@@ -247,19 +247,19 @@ header {
 }
 
 .darkGrey:nth-child(1) {
-    transition-delay:500ms;
+    transition-delay:400ms;
 }
 .darkGrey:nth-child(2) {
-    transition-delay:800ms;
+    transition-delay:700ms;
 }
 .darkGrey:nth-child(3) {
-    transition-delay:1100ms;
+    transition-delay:1000ms;
 }
 .darkGrey:nth-child(4) {
-    transition-delay:1400ms;
+    transition-delay:1300ms;
 }
 .darkGrey:nth-child(5) {
-    transition-delay:1700ms;
+    transition-delay:1600ms;
 }
 
 .yellow {
@@ -275,19 +275,19 @@ header {
 }
 
 .yellow:nth-child(1) {
-    transition-delay:500ms;
+    transition-delay:400ms;
 }
 .yellow:nth-child(2) {
-    transition-delay:800ms;
+    transition-delay:700ms;
 }
 .yellow:nth-child(3) {
-    transition-delay:1100ms;
+    transition-delay:1000ms;
 }
 .yellow:nth-child(4) {
-    transition-delay:1400ms;
+    transition-delay:1300ms;
 }
 .yellow:nth-child(5) {
-    transition-delay:1700ms;
+    transition-delay:1600ms;
 }
 
 .green {
@@ -303,19 +303,19 @@ header {
 }
 
 .green:nth-child(1) {
-    transition-delay:500ms;
+    transition-delay:400ms;
 }
 .green:nth-child(2) {
-    transition-delay:800ms;
+    transition-delay:700ms;
 }
 .green:nth-child(3) {
-    transition-delay:1100ms;
+    transition-delay:1000ms;
 }
 .green:nth-child(4) {
-    transition-delay:1400ms;
+    transition-delay:1300ms;
 }
 .green:nth-child(5) {
-    transition-delay:1700ms;
+    transition-delay:1600ms;
 }
 
 .lightGrey {
@@ -325,7 +325,7 @@ header {
 }
 
 .rotate {
-    animation:rotator 1s;
+    animation:rotator 800ms;
 }
 
 @keyframes rotator {
@@ -352,6 +352,51 @@ header {
 }
 .rotate:nth-child(5) {
     animation-delay: 1300ms;
+}
+
+.jump {
+    animation: jumper 250ms;
+}
+
+@keyframes jumper {
+    0% {
+        transform:translateY(-0px);
+    }
+    20% {
+        transform:translateY(-10px);
+    }
+    40% {
+        transform:translateY(-15px);
+    }
+    60% {
+        transform:translateY(-20px);
+    }
+    80% {
+        transform:translateY(-15px);
+    }
+    90% {
+        transform:translateY(-10px);
+    }
+    100% {
+        transform:translateY(-0px);
+    }
+}
+
+.jump:nth-child(1) {
+    animation-delay: 100ms;
+}
+
+.jump:nth-child(2) {
+    animation-delay: 200ms;
+}
+.jump:nth-child(3) {
+    animation-delay: 300ms;
+}
+.jump:nth-child(4) {
+    animation-delay: 400ms;
+}
+.jump:nth-child(5) {
+    animation-delay: 500ms;
 }
 
 .shake {
