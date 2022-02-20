@@ -13020,8 +13020,8 @@ const dictionary = [
     "shave"
 ]
 const regex = new RegExp("Key", "i");
-const answer = "YOUTH";
-let answerArr = ["Y", "O", "U", "T", "H"];
+const answer = "KLUTZ";
+let answerArr = ["K", "L", "U", "T", "Z"];
 let input = [];
 let greenCounter = 0;
 let horizontalPointer = 0;
@@ -13269,7 +13269,7 @@ function checker() {
     }
 
     greenCounter = 0;
-    answerArr = ["Y", "O", "U", "T", "H"];
+    answerArr = ["K", "L", "U", "T", "Z"];
     input = [];
     horizontalPointer = 0;
     if (verticalPointer < 6) {
